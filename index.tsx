@@ -22,7 +22,8 @@ import {
   Network,
   HardDrive,
   GraduationCap,
-  BookOpen
+  BookOpen,
+  Phone
 } from 'lucide-react';
 
 // Matrix Rain Effect Component
@@ -474,14 +475,10 @@ const Portfolio = () => {
                 <Mail size={20} />
                 ccaranda.sandoval@gmail.com
               </a>
-              <a href="https://www.linkedin.com/in/cristian-camilo-aranda" target="_blank" rel="noreferrer" className="flex items-center gap-3 px-8 py-4 bg-slate-900 hover:bg-slate-800 text-white rounded-xl font-semibold border border-slate-800 hover:border-green-500/30 transition-all w-full md:w-auto justify-center group font-mono">
-                <Linkedin size={20} className="group-hover:text-blue-400 transition-colors" />
-                LinkedIn
+              <a href="tel:+573246763855" className="flex items-center gap-3 px-8 py-4 bg-slate-900 hover:bg-slate-800 text-white rounded-xl font-semibold border border-slate-800 hover:border-green-500/30 transition-all w-full md:w-auto justify-center group font-mono">
+                <Phone size={20} className="group-hover:text-green-400 transition-colors" />
+                +57 324 676 3855
               </a>
-              <div className="flex items-center gap-3 px-8 py-4 bg-slate-900 text-slate-400 rounded-xl font-semibold border border-slate-800 w-full md:w-auto justify-center font-mono cursor-default">
-                <Globe size={20} />
-                Colombia
-              </div>
             </div>
           </div>
         </section>
